@@ -90,12 +90,12 @@ async def welcome(_, message: Message):
             return
 
 
-@Client.on_message(
-    filters.group
-    & filters.command(
-        ["start", "help", f"start@{BOT_USERNAME}", f"help@{BOT_USERNAME}"]
-    )
-)
+#@Client.on_message(
+#    filters.group
+#    & filters.command(
+#        ["start", "help", f"start@{BOT_USERNAME}", f"help@{BOT_USERNAME}"]
+#    )
+#)
 async def start(_, message: Message):
     chat_id = message.chat.id
     out = start_pannel()
@@ -116,6 +116,7 @@ async def play(_, message: Message):
         user_id = message.from_user.id
         user_name = message.from_user.first_name
         rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
+"""
         await app.send_message(
             message.chat.id,
             text=f"""
@@ -130,6 +131,7 @@ async def play(_, message: Message):
             reply_markup=pstart_markup,
             reply_to_message_id=message.message_id,
         )
+"""
     elif len(message.command) == 2:
         query = message.text.split(None, 1)[1]
         f1 = query[0]
