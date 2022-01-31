@@ -116,7 +116,7 @@ async def play(_, message: Message):
         user_id = message.from_user.id
         user_name = message.from_user.first_name
         rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
-"""
+
         await app.send_message(
             message.chat.id,
             text=f"""
@@ -126,7 +126,7 @@ async def play(_, message: Message):
 
 🧰 To Find Out All The Available Command Bots, You Can Press The Two Buttons Below, Namely Cd Music, Cd Dev And Cd Stream**
 
-""",
+
             parse_mode="markdown",
             reply_markup=pstart_markup,
             reply_to_message_id=message.message_id,
