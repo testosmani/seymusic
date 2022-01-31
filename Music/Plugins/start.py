@@ -116,10 +116,10 @@ async def play(_, message: Message):
         user_id = message.from_user.id
         user_name = message.from_user.first_name
         rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
-
+"""
         await app.send_message(
             message.chat.id,
-            text=f"""
+            text=
 **[🗣]({BOT_IMG}) Hello {rpk}! Ready Use Me?
 
 🉐 [{BOT_NAME}](tg://user?id=2129034376) Is A Bot That Can Be Used To Listen To Songs In Voice Chat And Can Play Videos In Voice Chat!
