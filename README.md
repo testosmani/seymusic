@@ -20,7 +20,7 @@
     <b>Jika Button Deploy To Heroku Eror Silahkan Kalian Fork Repository Ini Lalu Kalian Ubah Link Deploy Tersebut, Seperti Contoh Dibawah</b>
 
                            Dari Link Di Bawah Ini
-    https://dashboard.heroku.com/new?template=https://github.com/ridho17-ind/SkyzoMusicBot
+    https://dashboard.heroku.com/new?template=https://github.com/kennedy-ex/SkyzoMusicBot
                            Ubah Seperti Link Di Bawah Ini
     https://dashboard.heroku.com/new?template=https://github.com/nama-github-kamu/SkyzoMusicBot
 </p>
