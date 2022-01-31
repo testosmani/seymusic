@@ -112,27 +112,7 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.private & filters.incoming & filters.command("start"))
 async def play(_, message: Message):
-    if len(message.command) == 1:
-        user_id = message.from_user.id
-        user_name = message.from_user.first_name
-        rpk = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
-"""
-        await app.send_message(
-            message.chat.id,
-            text=
-**[🗣]({BOT_IMG}) Hello {rpk}! Ready Use Me?
-
-🉐 [{BOT_NAME}](tg://user?id=2129034376) Is A Bot That Can Be Used To Listen To Songs In Voice Chat And Can Play Videos In Voice Chat!
-
-🧰 To Find Out All The Available Command Bots, You Can Press The Two Buttons Below, Namely Cd Music, Cd Dev And Cd Stream**
-
-
-            parse_mode="markdown",
-            reply_markup=pstart_markup,
-            reply_to_message_id=message.message_id,
-        )
-"""
-    elif len(message.command) == 2:
+    if len(message.command) == 2:
         query = message.text.split(None, 1)[1]
         f1 = query[0]
         f2 = query[1]
