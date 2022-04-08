@@ -1,4 +1,4 @@
-<h1 align= center><b>SKYZO MUSIC BOT</b></h1>
+<h1 align= center><b>SEY MUSIC BOT</b></h1>
 <h3 align = center> Telegram Music Bot And Stream Feature New Version </h3>
 
 <p align="center"><img src="https://telegra.ph/file/3b041f0e23708b4953667.jpg" alt="Coder GIF" width="500" alt="ridho17-ind Github" width="1000px" /></p>
@@ -22,7 +22,7 @@
                            Dari Link Di Bawah Ini
     https://dashboard.heroku.com/new?template=https://github.com/kennedy-ex/SkyzoMusicBot
                            Ubah Seperti Link Di Bawah Ini
-    https://dashboard.heroku.com/new?template=https://github.com/nama-github-kamu/SkyzoMusicBot
+    https://dashboard.heroku.com/new?template=https://github.com/testosmani/seymusic
 </p>
 
 <h2 align="center">
