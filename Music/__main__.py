@@ -22,7 +22,7 @@ Client(
 
 
 print(f"[INFO]: BOT STARTED AS {BOT_NAME}!")
-print(f"[INFO]: ASSISTANT STARTED AS {ASSNAME}!")
+print(f"[INFO]: MSS ROSAN ASSISTANT STARTED AS {ASSNAME}!")
 
 
 
@@ -51,8 +51,8 @@ async def load_start():
         except Exception as e:
             print("Error came while clearing db")
             pass     
-    await app.send_message(LOG_GROUP_ID, "**[🤖](https://t.me/flicksrobotsupport/14994) The Music Bot Started Master...**")
-    await client.send_message(LOG_GROUP_ID, "**[🦸🏻‍♂️](https://t.me/flicksrobotsupport/14995) The Music Assistant Started Master...**")
+    await app.send_message(LOG_GROUP_ID, "**[🤖](https://t.me/Mss_Rosan_Bot) The Music Bot Started Master...**")
+    await client.send_message(LOG_GROUP_ID, "**[🦸🏻‍♂️](https://t.me/hassanosmanibot) The Music Assistant Started Master...**")
     print("[INFO]: STARTED")
     
    
