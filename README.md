@@ -22,7 +22,7 @@
                            Dari Link Di Bawah Ini
     https://dashboard.heroku.com/new?template=https://github.com/testosmani/seymusic
                            Ubah Seperti Link Di Bawah Ini
-    https://dashboard.heroku.com/new?template=https://github.com/testosmani/seymusic
+    https://dashboard.heroku.com/new?template=https://github.com/nama-github-kamu/SkyzoMusicBot
 </p>
 
 <h2 align="center">
