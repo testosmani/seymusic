@@ -30,7 +30,7 @@ def start_pannel():
             InlineKeyboardButton(text="Updates", url=f"https://t.me/{CHANNEL}"),
         ],
         [
-            InlineKeyboardButton("Command", url="https://telegra.ph/Skyzo-11-10"),
+            InlineKeyboardButton("Command", url="https://telegra.ph/Sey-Music-04-08"),
         ],
     ]
     return (
